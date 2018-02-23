@@ -1,6 +1,6 @@
 # Thener
 Thener is a library that mimics the then portion of a promise, allowing stateful
-capture of a value and uni-directional transfer function passed to then.
+capture of a value and uni-directional transfer using functions passed to then.
 
 ```javascript
 const thn = new Thener(1);
@@ -17,7 +17,7 @@ console.log(thn2.value); // 2
 Import and Construct
 
 ```javascript
-import thener from "thener";
+import Thener from "thener";
 const thn = new Thener(3);
 console.log(thn.value) // 3
 ```
