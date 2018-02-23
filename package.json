@@ -1,6 +1,6 @@
 {
   "name": "thener",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Thener is a library that mimics the then portion of a promise, allowing stateful capture of a value and uni-directional transfer function passed to then.",
   "main": "dist/thener.js",
   "files": [
