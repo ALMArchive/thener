@@ -58,7 +58,7 @@ Thener accepts any type and will store it internally. Thener's are immutable,
 any action will return a clone, or Thener with new value and carried over errors.
 
 ```javascript
-import thener from "thener";
+import Thener from "thener";
 const thn = new Thener(3);
 console.log(thn.value) // 3
 ```
@@ -76,7 +76,7 @@ try/catch block and throw the value you wish to capture. Errors on the current
 Thener will be added to the new Thener.
 
 ```javascript
-import thener from "thener";
+import Thener from "thener";
 const thn = new Thener(3);
 const thn2 = thn.then(e => 2 * e);
 console.log(thn2.value); // 6
@@ -87,7 +87,7 @@ console.log(thn2.value); // 6
 finally allows you to execute a function that isn't connected to internal data.
 
 ```javascript
-import thener from "thener";
+import Thener from "thener";
 const thn = new Thener(3);
 thn.finally(e => 2*e);
 console.log(thn.value) // 3
@@ -109,7 +109,7 @@ thn.catch(e => console.log(e)); // print errors
 A read only property returning the current internal value.
 
 ```javascript
-import thener from "thener";
+import Thener from "thener";
 const thn = new Thener(3);
 console.log(thn.value) // 3
 ```
