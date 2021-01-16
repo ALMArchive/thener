@@ -1,6 +1,6 @@
 {
   "name": "thener",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Thener is a library that mimics the then portion of a promise, allowing stateful capture of a value and uni-directional transfer function passed to then.",
   "main": "dist/thener.js",
   "files": [
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ALMaclaine/thener.git"
+    "url": "git+https://github.com/almtechhub/thener.git"
   },
   "keywords": [
     "Promise",
@@ -26,7 +26,7 @@
     "Async"
   ],
   "bugs": {
-    "url": "https://github.com/ALMaclaine/thener/issues"
+    "url": "https://github.com/almtechhub/thener/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.40",
@@ -45,5 +45,5 @@
     "mocha": "^5.0.1",
     "webpack": "^3.10.0"
   },
-  "homepage": "https://github.com/ALMaclaine/thener#readme"
+  "homepage": "https://github.com/almtechhub/thener#readme"
 }
